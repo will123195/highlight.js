@@ -42,11 +42,11 @@ hljs.LANGUAGES.php = {
         begin: '\\$[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*'
       },
       {
-        className: 'phpclass',
+        className: 'class',
         begin: '\\[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*::'
       },
       {
-        className: 'phpclass',
+        className: 'class',
         begin: '\\new [a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*('
       },
       {
